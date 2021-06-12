@@ -1,0 +1,28 @@
+.AppWrapper {
+  display: grid;
+  grid-template-areas:
+"header header"
+"navbar profile";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.AppHeader {
+  grid-area: header;
+  background-color: #cee5d0;
+}
+
+.AppNavbar {
+  grid-area: navbar;
+  background-color: #f3f0d7;
+
+}
+
+.AppProfile {
+  grid-area: profile;
+  background-color: #d8b384;
+
+}
