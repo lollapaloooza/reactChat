@@ -1,13 +1,14 @@
-function Navbar() {
+import classes from './Navbar.module.scss';
 
+function Navbar() {
     return (
-        <nav className="AppNavbar">
+        <nav className={classes.AppNavbar}>
             <ul>
-                <li><a href="">Profile</a></li>
-                <li><a href="">Messages</a></li>
-                <li><a href="">News</a></li>
-                <li><a href="">Music</a></li>
-                <li><a href="">Settings</a></li>
+                <li><a className={`${classes.item} ${classes.active}`} href="">Profile</a></li>
+                <li><a className={classes.item} href="">Messages</a></li>
+                <li><a className={classes.item} href="">News</a></li>
+                <li><a className={classes.item} href="">Music</a></li>
+                <li><a className={classes.item} href="">Settings</a></li>
             </ul>
         </nav>
     )

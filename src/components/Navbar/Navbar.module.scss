@@ -1,0 +1,20 @@
+.AppNavbar {
+  grid-area: navbar;
+  background-color: #f3f0d7;
+
+  & ul {
+    list-style: none;
+
+    & .item {
+      text-decoration: none;
+      color: #0a1d37;
+
+      &.active {
+        color: #2940d3;
+      }
+    }
+  }
+
+
+}
+

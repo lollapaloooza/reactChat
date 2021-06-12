@@ -1,0 +1,13 @@
+.AppProfile {
+  grid-area: profile;
+  background-color: #d8b384;
+
+}
+
+.posts {
+  padding: 10px 15px;
+
+  & .item {
+    color: #bf1363;
+  }
+}
