@@ -10,9 +10,8 @@ function MyPosts() {
                 New post
             </div>
             <div className={classes.posts}>
-                <Post/>
-                <Post/>
-                <Post/>
+                <Post message="Wassup?"/>
+                <Post message="Menya slili suka)"/>
             </div>
         </div>
     )
