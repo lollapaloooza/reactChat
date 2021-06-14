@@ -6,9 +6,9 @@ function Post(props) {
         <div className={classes.item}>
             <img src="https://i.ebayimg.com/images/g/t78AAOSw2sFdGt-s/s-l1600.jpg"
                  alt="profile photo"/>
-            {props.message}
+            {props.post.message}
             <div>
-                <span>like</span>
+                <span>{props.post.likesCount} like</span>
             </div>
         </div>
     )

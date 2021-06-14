@@ -1,16 +1,12 @@
 import classes from "./Profile.module.scss";
 import MyPosts from "./MyPosts/MyPosts";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 function Profile() {
 
     return (
-        <main className={classes.AppProfile}>
-            <div>
-                IMAGE
-            </div>
-            <div>
-                ava + desc
-            </div>
+        <main>
+            <ProfileInfo/>
             <MyPosts/>
         </main>
     )

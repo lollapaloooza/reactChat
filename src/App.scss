@@ -2,11 +2,16 @@
   display: grid;
   grid-template-areas:
 "header header"
-"navbar profile";
+"navbar content";
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.AppWrapperContent {
+  grid-area: content;
+  background-color: #d8b384;
 }
 
